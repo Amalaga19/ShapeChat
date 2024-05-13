@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+
+    <script type="text/javascript">
+   
+      
+    </script>
+    
+    
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+    <h1 id="titleText">ShapeChat (This Time It Works!) </h1>
+    <script src="sketch.js"></script>
+    <div id="colorDiv">
+    <h3 id="colorText">
+    Pick the color of your message box (Left) and the message text (Right):
+    </h3></div>
+    
+    </div>
+    <div id="userDiv">
+    <input id="username" type="text", placeholder="Username" />
+    <button onclick="userID()">Set</button>
+    </div>
+    <div id="messageDiv">
+      <h3 id = "instructions">
+        Click the Send button or press enter to send the message
+      </h3>
+    <input id="userStuff" type="text" placeholder="Type your message:"/>
+    <button onclick="userPutStuff()">Send</button>
+    </div>
+
+    <div id="chatDiv">
+    </div>
+      
+</body></html>

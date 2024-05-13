@@ -1,0 +1,90 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background:black;
+}
+canvas {
+  display: block;
+}
+#titleText{
+  font-size:40px;
+  display: flex;
+  text-align:center;
+  justify-content: center;
+  align-items: center;
+  font-family: comic sans ms;
+  color:darkTurquoise;
+}
+#colorText{
+  font-size:18px;
+  display: flex;
+  text-align:center;
+  justify-content: center;
+  align-items: center;
+  font-family: comic sans ms;
+  color:darkTurquoise;
+}
+input{
+  background-color: black;
+  margin-left: 25%;
+  display: inline-flex;
+  border-radius:5px;
+  border: dashed;
+  color: darkTurquoise;
+  padding: 3px 2px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: comic sans ms;
+}
+button {
+  background-color: black;
+  margin:20px;
+  display: inline-flex;
+  justify-content: space-around;
+  border-radius:5px;
+  border: dashed;
+  color: darkTurquoise;
+  padding: 3px 8px;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: comic sans ms;
+}
+
+.messages{
+    border-radius:5px;
+    margin-left:25%; 
+    margin-right:25%;
+    margin-top:5%;
+    padding: 3%;
+    font-family: comic sans ms;
+
+}
+#colorDiv{
+    margin-left:20%;
+    margin-right:20%;
+    padding: 0px;
+  
+}
+
+}
+#chatDiv{
+  overflow-y: scroll;
+  height: 75%;
+  margin-left:25%; 
+  margin-right:25%;
+}
+
+#instructions{
+  font-size:18px;
+  display: flex;
+  text-align:center;
+  justify-content: center;
+  align-items: center;
+  font-family: comic sans ms;
+  color:darkTurquoise;
+}
